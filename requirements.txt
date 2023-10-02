@@ -1,0 +1,9 @@
+torch
+numpy
+git+https://github.com/eric-mitchell/higher.git@master # For in-place functional models
+transformers
+datasets
+jsonlines
+wandb
+hydra-core
+allennlp # for efk

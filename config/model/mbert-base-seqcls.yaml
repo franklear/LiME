@@ -1,0 +1,13 @@
+name: bert-base-multilingual-cased
+class_name: BertForSequenceClassification
+tokenizer_class: BertTokenizerFast
+tokenizer_name: bert-base-multilingual-cased
+inner_params:
+- bert.encoder.layer.9.intermediate.dense.weight
+- bert.encoder.layer.9.output.dense.weight
+- bert.encoder.layer.10.intermediate.dense.weight
+- bert.encoder.layer.10.output.dense.weight
+- bert.encoder.layer.11.intermediate.dense.weight
+- bert.encoder.layer.11.output.dense.weight
+
+pt: ${hydra:runtime.cwd}/data/xnli

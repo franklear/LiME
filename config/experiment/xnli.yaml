@@ -1,0 +1,29 @@
+# @package _global_
+
+task: xnli
+dataset: xnli
+
+languages:
+  - en
+  - ar
+  - bg
+  - de
+  - el
+  - es
+  - fr
+  - hi
+  - ru
+  - sw
+  - th
+  - tr
+  - ur
+  - vi
+  - zh
+edit_languages: null
+edit_outer_languages: null
+max_sentence_length: null
+base_model_results_path: null
+
+train_base: False
+cbase: 0.0
+val_steps: null
